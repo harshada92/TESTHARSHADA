@@ -75,7 +75,7 @@ public class AircraftSave {
 		driver.findElement(By.xpath("//*[@id=\"ctl00_ContentPlaceHolder1_btnCloseAircraft\"]")).click();
 	 CallThread();
 }
-@Test(priority=1)
+@Test(priority=2)
 	public void AircraftSave1() throws InterruptedException, IOException {
 		System.out.println("Add Aircraft Testing");
 	driver.get("https://www.bytzsoft.net/CrewRostering/");
